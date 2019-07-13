@@ -1,0 +1,21 @@
+package hw;
+
+import javax.swing.*;
+
+public class hw 
+
+{
+	
+	public static void main (String[] args)
+	{
+		String input=JOptionPane.showInputDialog("hello world");
+		if (input.equals("hello")) {
+			JOptionPane.showMessageDialog(null, "hello back");
+		}
+		else if (input != "hello")
+		{
+			JOptionPane.showMessageDialog(null, "Goodbye");
+		}
+	}
+
+}
